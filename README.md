@@ -1,16 +1,23 @@
-# Memories
+MomentScape is a full-stack social media application built using React, Node.js, Express, and MongoDB. This app allows users to share and explore memorable moments by posting interesting events from their lives.
 
-![Memories](https://i.ibb.co/Z8Y0CJv/Screenshot-2020-10-30-at-11-10-04.png)
 
-## Introduction
-This is a code repository for the corresponding video tutorial - https://youtube.com/playlist?list=PL6QREj8te1P7VSwhrMf3D3Xt4V6_SRkhu.
 
-Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called "Memories" and it is a simple social media app that allows users to post interesting events that happened in their lives.
+Getting Started:
 
-By the end of this video, you will have a strong understanding of how the MERN Stack works.
+1. Clone the Repository
+git clone https://github.com/yourusername/MomentScape.git
+cd MomentScape
+2. Setup the Backend
+cd server
+npm install
 
-### [🌟 Become a top 1% Next.js 15 developer in only one course](https://jsmastery.pro/next15)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+Create a .env file in the server directory:
+ MONGO_URI=your_mongodb_connection_string
+ PORT=5000
+Start the backend server:
+ npm start
 
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the app
+3. Setup the Frontend
+cd ../client
+npm install
+npm start
